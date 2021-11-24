@@ -1,6 +1,7 @@
+# Taken from https://github.com/davebiagioni/pyomp
+
 import numpy as np
 from scipy.optimize import nnls
-
 
 class Result(object):
     """Result object for storing input and output data for omp.  When called from
